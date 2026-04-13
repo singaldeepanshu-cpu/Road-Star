@@ -7,7 +7,7 @@ from statistics import mean
 # =========================================================
 # CONFIGURATION (edit only this section)
 # =========================================================
-APP_TITLE = "🏆 Employee Voting System"
+APP_TITLE = "🏆 Road-Star for January"
 APP_ICON = "🏆"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
