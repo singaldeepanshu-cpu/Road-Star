@@ -13,7 +13,7 @@ APP_ICON = "🏆"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(BASE_DIR, "votes.json")
 
-ADMIN_PASSWORD = "admin123"
+ADMIN_PASSWORD = st.secrets["ADMIN_PASSWORD"]
 VOTES_REQUIRED = 2
 
 # Scoring formula:
