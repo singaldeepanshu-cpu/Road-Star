@@ -33,7 +33,7 @@ RATING_SCALE = 2
 
 RATING_CATEGORIES = [
     "Project Support & Collaboration",
-    "Technical Excellence & Knowledge Sharing"",
+    "Technical Excellence & Knowledge Sharing",
     "Positive Attitude & Team Behavior",
     "Initiative & Extra Activities",
 ]
