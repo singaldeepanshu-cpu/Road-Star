@@ -32,10 +32,10 @@ RATING_WEIGHT = 0.6
 RATING_SCALE = 2
 
 RATING_CATEGORIES = [
-    "Work Quality",
-    "Ownership",
-    "Team Support",
-    "Reliability",
+    "Project Support & Collaboration",
+    "Technical Excellence & Knowledge Sharing"",
+    "Positive Attitude & Team Behavior",
+    "Initiative & Extra Activities",
 ]
 
 EMPLOYEES = [
