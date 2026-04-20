@@ -9,19 +9,19 @@ import csv
 # =========================================================
 # CONFIGURATION (edit only this section)
 # =========================================================
-APP_TITLE = "🏆 Road-Star for January"
+APP_TITLE = "🏆 Road-Star for Quarter-1"
 APP_ICON = "🏆"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(BASE_DIR, "votes.json")
 
 # Put this in Streamlit secrets when deployed:
-# ADMIN_PASSWORD = st.secrets["ADMIN_PASSWORD"]
+ADMIN_PASSWORD = st.secrets["ADMIN_PASSWORD"]
 # For local testing, fallback is used if secrets are not available.
-try:
-    ADMIN_PASSWORD = st.secrets["ADMIN_PASSWORD"]
-except Exception:
-    ADMIN_PASSWORD = "admin123"
+#try:
+#    ADMIN_PASSWORD = st.secrets["ADMIN_PASSWORD"]
+#except Exception:
+#    ADMIN_PASSWORD = "admin123"
 
 VOTES_REQUIRED = 2
 
