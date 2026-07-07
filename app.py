@@ -9,7 +9,7 @@ import csv
 # =========================================================
 # CONFIGURATION (edit only this section)
 # =========================================================
-APP_TITLE = "🏆 Road-Star for Quarter-1"
+APP_TITLE = "🏆 Road-Star for Quarter-2"
 APP_ICON = "🏆"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -49,8 +49,6 @@ EMPLOYEES = [
     "Garvit Nokhwal",
     "Khatibur Rahman",
     "Kaushiki Sharma",
-    "Himanshu Sharma",
-    "Manu Sharma",
     "Mohit Soni",
     "Ankit Kumar Vardhan",
 ]
